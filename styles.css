@@ -1,0 +1,94 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+p {text-shadow: 2px 2px red;}
+
+.donate h2 {text-shadow: 2px 2px#FFFFFF;}
+.donate p {text-shadow: 2px 2px purple;}
+
+.eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+.header, .donate, .eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header {
+    color: white;
+    background-image: url("https://media.giphy.com/media/3ohc199MMXaK9wyTII/giphy.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+
+.donate {
+    background: red;
+}
+.eagles {
+    background: blue;
+    color: white;
+}
+
+.pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+
+.donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+.donate button:hover {
+    background: yellow;
+    color: black;
+}
+p{
+    text-align:center;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+.movies{
+    background-color:grey;
+}
