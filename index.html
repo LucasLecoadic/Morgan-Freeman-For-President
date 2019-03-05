@@ -1,0 +1,122 @@
+<!DOCTYPE html> <html><head>
+    <title>Morgan Freeman For President</title>
+<style>body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+p {text-shadow: 2px 2px red;}
+
+.donate h2 {text-shadow: 2px 2px#FFFFFF;}
+.donate p {text-shadow: 2px 2px purple;}
+
+.eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+.header, .donate, .eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header {
+    color: white;
+    background-image: url("https://media.giphy.com/media/3ohc199MMXaK9wyTII/giphy.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+
+.donate {
+    background: red;
+}
+.eagles {
+    background: blue;
+    color: white;
+}
+
+.pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+
+.donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+.donate button:hover {
+    background: yellow;
+    color: black;
+}
+p{
+    text-align:center;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+.movies{
+    background-color:grey;
+}</style></head>
+<body>
+    <div class="header">
+        <h1>Morgan Freeman</h1>
+        <p>His voice is "out of this world"</p>
+    </div>
+   
+    <div class="eagles">
+        <h2>The "Narrate the World" Initiative</h2>
+        <p>If elected, he vows to narate Google Maps for all of NY because who wouldn't want to hear his golden voice while trying to find ur way somewhere.</p>
+    </div>
+    <div class="pics">
+        <img src="https://d3hp8xnxb3lun4.cloudfront.net/wp-content/uploads/2016/08/Morgan-Freeman-1200x801.jpg">
+        <img src="http://www.viralblog.com/wp-content/uploads/2012/09/morgan-freeman-god.jpg">
+        <img src="http://i2.cdn.turner.com/cnn/2010/images/12/16/t1larg.freeman.gi.jpg">
+    </div>
+     <div class="donate">
+        <h2>Donate Now</h2>
+        <p>Invest $1 million into Morgans ideas.</p>
+        <button><a href="https://www.youtube.com/watch?v=FRKVQcbIByo">Donate</a></button>
+    </div>
+    <div class="movies">
+    <p>Morgan Freeman has been nominated for 5 oscars and won one for his performance in "Million Dollar Baby". He was nominated for best actor for his performances in "Driving Miss Daisy"(1990), "The Shawshank Redemption" (1995) and Invictus (2010)</p>
+    </div>
+
+
+</body></html>
